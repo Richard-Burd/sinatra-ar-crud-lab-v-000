@@ -5,5 +5,8 @@ if ActiveRecord::Migrator.needs_migration?
   raise 'Migrations are pending. Run `rake db:migrate` to resolve the issue.'
 end
 
+#does this even do anything...seems to be working fine without it.
+#but I'm not able to update with this on...the instructions say to use it.
+#use Rack::MethodOverride
 
 run ApplicationController
